@@ -1,0 +1,4 @@
+from sklearn import datasets
+data = datasets.load_breast_cancer()
+print(data.keys())
+print(data.DESCR) 
